@@ -1,6 +1,6 @@
 import 'package:bharatwork/core/constants/app_colors.dart';
 import 'package:bharatwork/models/onboard.dart';
-import 'package:bharatwork/presentation/screens/home/home_page.dart';
+import 'package:bharatwork/presentation/screens/auth/welcomepage.dart';
 import 'package:flutter/material.dart';
 import 'package:gap/gap.dart';
 import 'package:google_fonts/google_fonts.dart';
@@ -34,7 +34,7 @@ class _OnBoardingPageState extends State<OnBoardingPage> {
       context,
       MaterialPageRoute(
         // Replace this with your actual Login or Home Page
-        builder: (context) => HomePage(),
+        builder: (context) => Welcomepage(),
       ),
     );
   }

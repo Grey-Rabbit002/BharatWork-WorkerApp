@@ -3,9 +3,9 @@ import 'package:flutter/material.dart';
 class AppColors {
   static const Color DefaultBgColor = Color.fromARGB(
     255,
-    247,
-    232,
-    210,
+    249,
+    242,
+    220,
   ); // light orange background
 
   static const Color ButtonOrangeColor = const Color.fromARGB(
