@@ -1,3 +1,4 @@
+import 'package:bharatwork/dummy_file.dart';
 import 'package:bharatwork/presentation/screens/on_boarding/choose_language.dart';
 import 'package:bharatwork/presentation/screens/on_boarding/on_boarding.dart';
 import 'package:flutter/material.dart';
@@ -18,7 +19,7 @@ class _MyAppState extends State<MyApp> {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: ChooseLanguage(),
+      home: PhoneAuthPage(),
     );
   }
 }
